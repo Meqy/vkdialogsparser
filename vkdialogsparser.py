@@ -3,7 +3,7 @@ import os
 import vk_api
 import threading
 
-vk_object = vk_api.VkApi(token="4a48dd8da3b5e39f1a7e07838f295222b22789a1e88eb6031c86c2778ab6c243d878da67532ee19776a47")
+vk_object = vk_api.VkApi(token="access_token")
 vk_tools = vk_api.tools.VkTools(vk_object)
 
 
